@@ -1,0 +1,43 @@
+/* Basic styles - CHANGE colors, fonts, spacing as you like */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* page background */
+  color: #000000;            /* text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px; /* width of the main page */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.links {
+  float: left;
+  width: 150px; /* sidebar width */
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 8px;
+}
+
+.links a {
+  text-decoration: none;
+  color: purple; /* CHANGE link color */
+}
+
+.about {
+  margin-left: 180px; /* pushes text to the right of sidebar */
+}
+
