@@ -18,6 +18,14 @@ h1 {
   text-align: center;
 }
 
+/* Profile photo */
+.profile-photo {
+  display: block;
+  margin: 20px auto;   /* centers the image */
+  width: 200px;        /* adjust size */
+  border-radius: 50%;  /* makes it circular */
+}
+
 .links {
   float: left;
   width: 150px; /* sidebar width */
@@ -34,10 +42,9 @@ h1 {
 
 .links a {
   text-decoration: none;
-  color: rgb(6, 2, 54); /* CHANGE link color */
+  color: rgb(6, 2, 54); /* link color */
 }
 
 .about {
   margin-left: 180px; /* pushes text to the right of sidebar */
 }
-
