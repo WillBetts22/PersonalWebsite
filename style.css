@@ -22,7 +22,7 @@ h1 {
 .profile-photo {
   display: block;
   margin: 20px auto;   /* centers the image */
-  width: 200px;        /* adjust size */
+  width: 100px;        /* adjust size */
   border-radius: 50%;  /* makes it circular */
 }
 
