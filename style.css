@@ -1,8 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.links {
+  float: left;
+  width: 150px;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 8px;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(6, 2, 54);
+}
+
+.about {
+  margin-left: 180px;
+}
+
 /* Projects Section */
 
 .projects {
-  margin-left: 180px; /* Aligns with the 'About' section */
-  margin-top: 40px;   /* Adds space between About and Projects */
+  clear: both;
+  margin-top: 40px;
 }
 
 .project-item {
