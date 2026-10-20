@@ -19,10 +19,10 @@ h1 {
 .profile-photo {
   display: block;
   margin: 0 auto 20px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50%;
+  object-position: left center;
 }
 
 .links {
@@ -46,6 +46,18 @@ h1 {
 
 .about {
   margin-left: 180px;
+}
+
+/* Research Section */
+
+.research {
+  clear: both;
+  margin-top: 40px;
+}
+
+.research .meta {
+  font-size: 0.9em;
+  color: #666;
 }
 
 /* Projects Section */
