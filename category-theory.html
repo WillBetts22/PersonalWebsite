@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Category Theory &amp; Deep Learning | William Betts</title>
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+  <div class="container">
+    <p><a href="index.html" class="back-link">&larr; Back to Home</a></p>
+
+    <h1>Category Theory &amp; Deep Learning</h1>
+
+    <p class="section-note">I am deeply interested in category theory and its impact on AI. This is the space
+    where I write up research and notes that might be interesting.</p>
+
+    <div class="projects">
+      <h2>Research</h2>
+      <hr>
+
+      <div class="project-item">
+        <h3>Detecting Hallucinations Through Compositional Inconsistency: A Categorical Approach to Budgeted Verification</h3>
+        <p class="meta">
+          <strong>Type:</strong> Research proposal
+        </p>
+        <p class="section-note">
+          <strong>Research telos:</strong> Language models can recall individual facts correctly and still fail
+          to combine them into a correct answer. The aim of this project is to use category theory to say precisely
+          when two ways of computing an answer should agree, and to test whether failures of that agreement
+          can flag hallucinations and tell us which claims are most worth verifying on a fixed budget.
+        </p>
+        <p class="abstract">
+          <strong>Abstract:</strong> Large language models can correctly recall individual facts while failing to combine them
+          into a correct answer. This project investigates whether failures of compositional consistency provide a useful
+          signal for detecting factual hallucinations and selecting claims for verification. We represent a multi-step task
+          as a graph of typed operations and use category theory to specify when different computational paths should produce
+          equivalent answers. We then measure disagreement between a model's direct execution of a composite task and its
+          execution of the constituent steps, without accessing ground-truth answers during detection.
+        </p>
+        <a href="Compositional_Inconsistency_Proposal.pdf" target="_blank" class="pdf-link">Read Full Proposal (PDF)</a>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h2>Notes</h2>
+      <hr>
+
+      <div class="project-item">
+        <h3>When the Pieces Agree: A Gentle Introduction to Operadic Consistency in AI Reasoning</h3>
+        <p class="meta">
+          <strong>Author:</strong> William Betts <br>
+          <strong>Date:</strong> October 20, 2026
+        </p>
+        <p class="section-note">
+          An attempt to rewrite recent work on operads and compositional reasoning in LLMs so that it is more
+          accessible to people without a background in category theory. It builds up from functions and
+          composition to categories, functors, operads, and their algebras, using simple arithmetic examples.
+        </p>
+        <a href="Operadic_Consistency_Introduction.pdf" target="_blank" class="pdf-link">Read Full Paper (PDF)</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
