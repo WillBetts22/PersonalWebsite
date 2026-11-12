@@ -19,6 +19,30 @@
       <hr>
 
       <div class="project-item">
+        <h3>Compositional Inconsistency as a Verification Signal: Pilot Results on MuSiQue</h3>
+        <p class="meta">
+          <strong>Author:</strong> William Betts <br>
+          <strong>Date:</strong> November 11, 2026 <br>
+          <strong>Type:</strong> Pilot results paper
+        </p>
+        <p class="abstract">
+          <strong>Abstract:</strong> Compositional inconsistency is the case where a model answers a multi-hop question
+          differently in one step than step by step. It predicts errors on short chains and in weaker models, but as
+          pre-specified it does not add predictive value beyond confidence and self-consistency at scale. We sampled both
+          routes on MuSiQue chain questions with three OpenAI models (gpt-4.1, gpt-4.1-mini, gpt-5.5), labelled every claim
+          against gold answers, and scored selection strategies under the parent project's fixed verification budget (25%
+          of claims checked, swept from 6% to 63%). On 100 two-hop questions, composition was the best non-oracle strategy
+          for all three models, and for gpt-4.1-mini it raised error-prediction AUROC by +0.139 (95% CI +0.035 to +0.250).
+          On 300 questions with 2-, 3- and 4-hop chains, the pre-specified score (maximum over chain regions) showed no gain
+          for either gpt-4.1-mini (+0.001) or gpt-5.5 (&minus;0.007). An exploratory diagnosis traces much of the gpt-4.1-mini
+          null to that aggregator: the full-chain score recovers a +0.053 gain on 3&ndash;4 hop chains (CI +0.006 to +0.102).
+          Stated confidence was near chance in every open-book run (AUROC 0.48&ndash;0.60). These are pilot results on MuSiQue
+          train; the full-chain hypothesis needs pre-registration and a held-out test.
+        </p>
+        <a href="Compositional_Inconsistency_Pilot_Results.pdf" target="_blank" class="pdf-link">Read Full Paper (PDF)</a>
+      </div>
+
+      <div class="project-item">
         <h3>Detecting Hallucinations Through Compositional Inconsistency: A Categorical Approach to Budgeted Verification</h3>
         <p class="meta">
           <strong>Type:</strong> Research proposal
